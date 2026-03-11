@@ -1,0 +1,19 @@
+@keyframes color-change {
+  0%   { color: #4f1964; }
+  50%  { color: #a931d8; }
+  100% { color: #c774e7; }
+}
+
+body {
+    font-family: Georgia,  Courier New; /* Font family */
+    font-size: 16px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #f4f6fc; /* A cor do plano de fundo da página */
+    color: #ff66c4; /* A cor do texto */ 
+}
+h1 {
+    color: #4f1964; /* A cor do cabeçalho */
+    font-size: 32px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+}
+
+ h2:hover { animation: color-change 3s infinite; }
